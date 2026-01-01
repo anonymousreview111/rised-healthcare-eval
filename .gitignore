@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data (large files — use Git LFS or exclude)
+data/
+*.csv
+!examples/synthetic_cohort_10k.csv
+*.zip
+*.xpt
+examples/readme.txt
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+paper.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+HOW_TO_PUSH_ANONYMOUS.md
